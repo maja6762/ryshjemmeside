@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+</head>
+
+<style>
+
+h1 {text-align:center;}
+* {
+  box-sizing: border-box;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* left column */
+.leftcolumn {
+  float: left;
+  width: 35%;
+  background-color: rgba(178,50,31,1);
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+/* right column */
+.rightcolumn {
+  float: right;
+  width: 35%;
+  background-color: rgba(178,50,31,1);
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* Clear floats after the columns*/
+/* danner en klasse til begge kolonner */
+.row:after {
+  content: "";
+  display: block;
+  clear: both; /* rydder efter begge */
+}
+
+</style>
+
+<body>
+
+<h1> Studieretninger </h1>
+
+<div class="row">
+  <div class="leftcolumn">
+      <div class="dropdown">
+        <h2><span>Bioteknologi</span></h2>
+        <div class="dropdown-content">
+          <p>Hello World!</p>
+        </div>
+      </div>
+      <br></br>
+      <div class="dropdown">
+        <h2><span>FYMA</span></h2>
+        <div class="dropdown-content">
+          <p>Hello World!</p>
+        </div>
+      </div>
+      <br></br>
+      <div class="dropdown">
+        <h2><span>Almen Science</span></h2>
+        <div class="dropdown-content">
+          <p>Hello World!</p>
+        </div>
+      </div>
+      <br></br>
+      <div class="dropdown">
+        <h2><span>Sprog</span></h2>
+          <div class="dropdown-content">
+            <p>Hello World!</p>
+          </div>
+        </div>
+        </div>
+
+
+
+
+        <div class="rightcolumn">
+            <div class="dropdown">
+              <h2><span>Musik og Engelsk</span></h2>
+              <div class="dropdown-content">
+                <p>I denne studieretning bliver musik en central del af dit gymnasieliv. Du skal både spille og synge – analysere og forstå, og du kommer til at arbejde med musikkultur på mange forskellige måder. Du skal læse om den, se den på film, rejse ned og besøge den, opleve den og deltage i den. Musik og engelsk vil i kombination med de øvrige fag være med til at give dig sproglige, kunstneriske, analytiske og performative kompetencer – og en solid faglig ballast.
+                  <br></br>
+En gymnasiehverdag i denne studieretning vil skærpe din lydhørhed, udfordre dig personligt, styrke din kulturelle bevidsthed og udvikle dine samarbejdsevner.</p>
+              </div>
+            </div>
+            <br></br>
+            <div class="dropdown">
+              <h2><span>Musik og Matematik</span></h2>
+              <div class="dropdown-content">
+                <p>I denne studieretning bliver både musik og matematik en central del af dit gymnasieliv. Det er fag, der ved første øjekast kan synes langt fra hinanden, men det er ikke nødvendigvis tilfældet - for musik kan i mange henseender opfattes som et matematisk system, mens matematiske løsninger ofte bygger på kreativ tænkning.
+
+Derfor skal du både spille og synge, analysere og forstå komplekse sammenhænge og arbejde systematisk og kreativt med musikkultur, musikhistorie, arrangementsteknikker, matematiske beviser og modeller samt formler. Og perspektivet vil veksle mellem det teoretiske og det praksisorienterede.
+
+</p>
+              </div>
+            </div>
+            <br></br>
+            <div class="dropdown">
+              <h2><span>Samfundsfag og Engelsk</span></h2>
+              <div class="dropdown-content">
+                <p>Hello World!</p>
+              </div>
+            </div>
+            <br></br>
+            <div class="dropdown">
+              <h2><span>Samfundsfag og Matematik</span></h2>
+                <div class="dropdown-content">
+                  <p>Hello World!</p>
+                </div>
+              </div>
+            </div>
+
+</div>
+
+</body>
+
+
+
+
+</html>
+
+<!--
+Øvelse
+Tilføj underoverskrifter med <h2></h2>, <h3></h3> osv.
+Tilføj endnu en paragraf.
+Lav en linjeskift med <br>, break.
+Lav et nyt link til en ekstern side.
+-->

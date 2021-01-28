@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<h1> Rysensteen Gymnasium </h1>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+  .topbar {
+    display: inline-block;
+    width: 19%;
+    height: 50px;
+    line-height:50px;
+    font-size: 25px;
+    color: rgba(204,204,202,1);
+    text-align: center;
+    background: rgba(178,50,31,1);
+  }
+  body{
+  background-color:rgb(255,255,255);
+  }
+  h1 {text-align:center;}
+
+  /* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 65%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 35%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+  padding-right: 45px;
+
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* Clear floats after the columns*/
+/* danner en klasse til begge kolonner */
+.row:after {
+  content: "";
+  display: block;
+  clear: both; /* rydder efter begge */
+}
+  </style>
+
+</head>
+
+<body>
+  <a class='topbar' href="studie.html"> Studieretninger</a>
+  <a class='topbar' href="lokal.html"> Lokalområdet</a>
+  <a class='topbar' href="social.html"> Sociale aktiviteter</a>
+  <a class='topbar' href="gcp.html"> GCP</a>
+  <a class='topbar' href="om.html"> Om skolen</a><br><br>
+
+  <div class="row">
+    <div class="leftcolumn">
+      <img src="huer.JPG" width=800px></img>
+</div>
+
+
+<div class="row">
+  <div class="rightcolumn">
+      <h2>Om os</h2>
+      <p>Vi er 4 informatikelever fra 3.g på Rysensteen gymnasium. Vi går i 3.x og har biotek som studieretning. I vores valgfag informatik har vi fået til opgave at lave en hjemmeside om Rysensteen og det er så den du er inde på nu.
+
+</p>
+<p>
+Rysensteen har både lokaler på Tietgensgade og i kødbyen og man går derfor ofte mellem skolens mange lokaler. Dette kan være øv på en våd regnvejrsdag, men det er nu alligevel meget rart at få noget luft mellem modulerne og at gå lidt gennem Vesterbro.
+</p>
+    </div>
+    </div>
+  </div>
+
+</body>
+</html>
